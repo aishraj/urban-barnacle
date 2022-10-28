@@ -21,3 +21,6 @@ sudo apt-get install fish -y
 
 # Install Starship
 sh -c "$(curl -fsSL https://starship.rs/install.sh)" -- --yes
+
+rm -rf ~/.config
+ln -s $(pwd)/.config $HOME/.config
