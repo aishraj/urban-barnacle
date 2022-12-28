@@ -3,7 +3,8 @@ set PATH /usr/local/bin $PATH
 
 alias reload "exec fish"
 
-alias gc "git checkout"
+alias gco "git checkout"
+alias gc "git commit -m"
 alias gl "git log -1 --format='%H'"
 
 # Setup Starship
