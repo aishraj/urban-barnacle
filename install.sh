@@ -22,5 +22,8 @@ sudo apt-get install fish -y
 # Install Starship
 sh -c "$(curl -fsSL https://starship.rs/install.sh)" -- --yes
 
+# Install Oh My Fish
+curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
+
 rm -rf ~/.config
 ln -s $(pwd)/.config $HOME/.config
